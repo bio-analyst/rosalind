@@ -6,7 +6,7 @@ def nucCnt (D):
     nucC = D.count('C')
     nucG = D.count('G')
     nucT = D.count('T')
-    print(nucA, nucC, nucG, nucT)
+    print('\n',"Nucleotide A Count:",nucA,'\n',"Nucleotide C Count:", nucC,'\n',"Nucleotide G Count:", nucG,'\n', "Nucleotide T Count:",nucT)
 
 
 nucCnt(dnaStrand) #this will apply the funtion to the variable of stored DNA above.
